@@ -3,7 +3,8 @@ kind: ClusterConfig
 
 metadata:
   name: mean-eks-demo #cluster name
-  region: us-west-2 #desired region
+  #region: us-west-2 #desired region
+  region: us-east-1 #desired region
 nodeGroups:
   - name: ng-1 #cluster node group name
     instanceType: t2.medium #desired instance type
